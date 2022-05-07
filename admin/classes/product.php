@@ -19,40 +19,27 @@
 		}
 
 		//START ADMIN
-		public function insert_product($data, $files)
+		public function insert_product($data)
 		{
 
 			$tenSanPham = mysqli_real_escape_string($this->db->link, $data['tenSanPham']); //Connect database
 			$maLoai = mysqli_real_escape_string($this->db->link, $data['maLoai']);
-			$sizeSanPham = mysqli_real_escape_string($this->db->link, $data['sizeSanPham']);
 			$mieuTaSanPham = mysqli_real_escape_string($this->db->link, $data['mieuTaSanPham']);
 			$soLuongSanPham = mysqli_real_escape_string($this->db->link, $data['soLuongSanPham']);
 			$giaSanPham = mysqli_real_escape_string($this->db->link, $data['giaSanPham']);
-
-			
+			$img = $data['image'];
 
 			//Kiểm tra hình ảnh và lấy hình ảnh cho vào folder uploads
-			$permited = array('jpg','jpeg','png','gif');
-			$file_name = $_FILES['image']['name'];
-			$file_size = $_FILES['image']['size'];
-			$file_temp = $_FILES['image']['tmp_name'];
 
-			$div = explode('.', $file_name);
-			$file_ext = strtolower(end($div));
-			$unique_image = substr((time()), 0, 10).'.'.$file_ext ;
-			$uploaded_image  = 'uploads/'.$unique_image;
-			//Kiểm tra hình ảnh và lấy hình ảnh cho vào folder uploads
-
-			if ($tenSanPham == "" || $maLoai == "" || $sizeSanPham == "" || $mieuTaSanPham == ""|| $giaSanPham == "" || $soLuongSanPham == "" || $file_name == "")
+			if ($tenSanPham == "" || $maLoai == ""  || $mieuTaSanPham == ""|| $giaSanPham == "" || $soLuongSanPham == "" || $img == "")
 			{
 				$alert = "<div class= 'alert alert-danger'>Không được để trống!</div>";
 				return $alert;
 			}
 			else
 			{
-				move_uploaded_file($file_temp, $uploaded_image);
 
-				$query = "INSERT INTO tbl_sanpham(tenSanPham, maLoai, sizeSanPham, mieuTaSanPham, giaSanPham, hinhAnhSanPham, soLuongSanPham) VALUES('$tenSanPham','$maLoai', '$sizeSanPham', '$mieuTaSanPham', '$giaSanPham', '$unique_image','$soLuongSanPham') ";
+				$query = "INSERT INTO tbl_sanpham(tenSanPham, maLoai, mieuTaSanPham, giaSanPham, hinhAnhSanPham, soLuongSanPham) VALUES('$tenSanPham','$maLoai', '$mieuTaSanPham', '$giaSanPham', '$img','$soLuongSanPham') ";
 
 				
 				//$query2 = "UPDATE tbl_category SET catNumberProducts = $productAmount + (SELECT catNumberProducts FROM tbl_category WHERE catID = '$category')  WHERE catID = '$category' " ; //Tăng số lượng vào catNumberProduct của danh mục tương ứng
@@ -146,7 +133,6 @@
 		{
 			$tenSanPham = mysqli_real_escape_string($this->db->link, $data['tenSanPham']); //Connect database
 			$maLoai = mysqli_real_escape_string($this->db->link, $data['maLoai']);
-			$sizeSanPham = mysqli_real_escape_string($this->db->link, $data['sizeSanPham']);
 			$mieuTaSanPham = mysqli_real_escape_string($this->db->link, $data['mieuTaSanPham']);
 			$soLuongSanPham = mysqli_real_escape_string($this->db->link, $data['soLuongSanPham']);
 			$giaSanPham = mysqli_real_escape_string($this->db->link, $data['giaSanPham']);
@@ -164,7 +150,7 @@
 			$uploaded_image  = 'uploads/'.$unique_image; 
 			//Kiểm tra hình ảnh và lấy hình ảnh cho vào folder uploads
 
-			if ($tenSanPham == "" || $maLoai == "" || $sizeSanPham == "" || $mieuTaSanPham == ""|| $giaSanPham == "" || $soLuongSanPham == ""){
+			if ($tenSanPham == "" || $maLoai == ""  || $mieuTaSanPham == ""|| $giaSanPham == "" || $soLuongSanPham == ""){
 				$alert = "<div class= 'alert alert-danger'>Không được để trống!</div>";
 				return $alert;
 			}
@@ -190,7 +176,6 @@
 					$query = "UPDATE tbl_sanpham SET 
 								tenSanPham = '$tenSanPham', 
 								maLoai = '$maLoai',
-								sizeSanPham = '$sizeSanPham',
 								mieuTaSanPham = '$mieuTaSanPham',
 								giaSanPham = '$giaSanPham',
 								hinhAnhSanPham = '$unique_image', 
@@ -206,7 +191,6 @@
 					$query = "UPDATE tbl_sanpham SET 
 								tenSanPham = '$tenSanPham', 
 								maLoai = '$maLoai',
-								sizeSanPham = '$sizeSanPham',
 								mieuTaSanPham = '$mieuTaSanPham',
 								giaSanPham = '$giaSanPham',
 								soLuongSanPham = '$soLuongSanPham'							

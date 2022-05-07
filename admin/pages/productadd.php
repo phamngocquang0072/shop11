@@ -5,7 +5,7 @@
     $prod = new product();
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
 
-        $insertProduct = $prod->insert_product($_POST, $_FILES);
+        $insertProduct = $prod->insert_product($_POST);
     }
 
 ?>
@@ -62,28 +62,7 @@
                                     
                                 </tr>
 
-                                <tr>
-                                    <td class="tabLabel" >
-                                        <label class="labelAddProduct">Size: </label>
-                                    </td>
-                                    <td>
-                                        <select class="inputAddProduct" name="sizeSanPham" required>
-                                            <option value="0">----Chọn size----</option>
-                                            <?php 
-                                                $i= 36;
-                                                while ($i < 46){
-                                                    $i++;
-
-                                            ?>
-                                            <option value="<?php echo $i ?>"><?php echo $i ?></option>
-                                            <?php 
-                                                }
-                                            ?>
-                                        </select>
-                                    </td>
-                                </tr>
-
-                                <tr>
+                               
                                     <td class="tabLabel" >
                                         <label class="labelAddProduct">Số lượng: </label>
                                     </td>
@@ -117,8 +96,8 @@
                                         <label class="labelAddProduct">Hình ảnh sản phẩm: </label>
                                     </td>
                                     <td>
-                                        <input name="image" type="file" accept="image/*" onchange="loadFile(event)" required>
-                                        <img id="output" style="width: 20%;" />
+                                        
+                                        <input type="text" name="image" placeholder="Nhập   " class="inputAddProduct" required>
                                     </td>
                                 </tr>
                                 

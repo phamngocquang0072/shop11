@@ -55,7 +55,6 @@
                                                     <th>Mã sản phẩm</th>
                                                     <th>Tên sản phẩm</th>
                                                     <th>Tên danh mục</th>
-                                                    <th>Size</th>
                                                     <th>Số lượng</th>
                                                     <th>Giá</th>
                                                     <th>Miêu tả sản phẩm</th>
@@ -78,7 +77,6 @@
                                                     <td><?php echo $result['maSanPham']; ?></td>
                                                     <td><?php echo $result['tenSanPham']; ?></td>
                                                     <td><?php echo $result['tenLoai']; ?></td>
-                                                    <td class="center"><?php echo $result['sizeSanPham']; ?></td>
                                                     <td><?php echo $result['soLuongSanPham']; ?></td>
                                                     <td class="center"><?php echo ($result['giaSanPham']); ?></td>
 
