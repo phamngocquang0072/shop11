@@ -129,7 +129,7 @@ session_start();
 										<td class="cart-avail"><span class="label label-success">Còn hàng</span></td>
 										<td class="cart-unit">
 											<ul class="price text-right">
-												<li class="price special-price"><?php echo number_format($rows['giaSanPham']);?> VNĐ</li>
+												<li class="price special-price"><?php echo $rows['giaSanPham'];?> VNĐ</li>
 												<!--li class="price-percent-reduction small">&nbsp;-3%&nbsp;</li->
 												<li class="old-price">$27.00</li-->
 											</ul>
@@ -223,7 +223,7 @@ session_start();
 										  <?php 
 										   //$gia=(string)$rows['soLuongSanPham'];
 										  $total=$rows['giaSanPham'] *$rows['sum(`soLuongSanPham`)'];?>
-											<span class="price"><?php echo number_format($total);?> VNĐ</span>
+											<span class="price"><?php echo $total;?> VNĐ</span>
 										</td>
 									</tr> 
 									<?php $sup_total+=$total;?><!--tính tổng tiền-->
@@ -251,7 +251,7 @@ session_start();
 										<td class="cart_voucher" colspan="3" rowspan="4"></td>
 										<td class="text-right" colspan="3">Tổng thanh toán:</td>
 										
-										<td id="total_product" class="price" colspan="1"><?php echo number_format($sup_total);?> VNĐ</td>
+										<td id="total_product" class="price" colspan="1"><?php $sup_total;?> VNĐ</td>
 									</tr>
 									<!--tr>
 										<td class="text-right" colspan="3">Phí vận chuyển</td>

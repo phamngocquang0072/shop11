@@ -80,7 +80,7 @@
                                                     <td><?php echo $result['tenLoai']; ?></td>
                                                     <td class="center"><?php echo $result['sizeSanPham']; ?></td>
                                                     <td><?php echo $result['soLuongSanPham']; ?></td>
-                                                    <td class="center"><?php echo number_format($result['giaSanPham']); ?></td>
+                                                    <td class="center"><?php echo ($result['giaSanPham']); ?></td>
 
                                                     <td>
                                                         <?php

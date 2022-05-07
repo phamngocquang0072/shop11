@@ -94,7 +94,7 @@
                                                     <td><?php echo $resultDH['maDonHang']; ?></td>
                                                     <td><?php echo $resultDH['maKhachHang']; ?></td>
                                                     <td><?php echo $resultDH['ngayLapDH']; ?></td>
-                                                    <td><?php echo number_format($resultDH['tongTienDH']); ?> VND</td>
+                                                    <td><?php echo ($resultDH['tongTienDH']); ?> VND</td>
                                                     <td>
                                                         <?php 
                                                             if ($resultDH['trangThaiDH'] == "Chưa giao"){

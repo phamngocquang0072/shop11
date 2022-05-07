@@ -5,7 +5,7 @@
 ?>
 
 <?php 
-	if (!isset($_GET['maLoai']) || $_GET['maLoai'] == ''|| $_GET['maLoai']>14 || $_GET['maLoai']<0  ){
+	if (!isset($_GET['maLoai']) || $_GET['maLoai'] == ''|| $_GET['maLoai']<0  ){
         echo "<script>window.location = '404.php'</script>";
     }else{
         $idLoai = $_GET['maLoai'];
@@ -164,28 +164,7 @@
 								</ul>
 							</div>
 							<!-- SINGLE SIDEBAR PRICE END -->
-							<!-- SINGLE SIDEBAR SIZE START -->
-							<div class="product-single-sidebar">
-								<span class="sidebar-title">Size</span>
-								<ul>
-									<?php 
-										
-										$querySize = mysqli_query($conn, "SELECT *, COUNT(maSanPham) FROM `tbl_sanpham` WHERE trangThaiSanPham = '1' AND maLoai = '$idLoai' GROUP BY sizeSanPham ");
-										while ($fetchSize = mysqli_fetch_assoc($querySize)){
-
-									?>
-									<li>
-										<span class="fa fa-angle-double-right"></span>
-										<a href="shop-gird.php?maLoai=<?php echo $idLoai; ?>&size=<?php echo $fetchSize['sizeSanPham'];  ?>"><?php echo $fetchSize['sizeSanPham'];  ?><span> (<?php echo $fetchSize['COUNT(maSanPham)'];  ?>)</span></a>
-										<?php 
-
-										?>
-									</li>
-									<?php 
-										}
-									?>
-								</ul>
-							</div>
+							
 							<!-- SINGLE SIDEBAR SIZE END -->
 							<!-- SINGLE SIDEBAR COLOR START -->
 							<!-- <div class="product-single-sidebar">
@@ -329,15 +308,7 @@
 						<!-- SINGLE SIDEBAR TAG START -->
 						<div class="product-left-sidebar">
 							<h2 class="left-title">Tags </h2>
-							<div class="category-tag">
-								<a href="#">adidas</a>
-								<a href="#">nike</a>
-								<a href="#">converse</a>
-								<a href="#">vans</a>
-								<a href="#">bitis</a>
-								<a href="#">newbalance</a>
-								<a href="#">asics</a>
-							</div>
+							
 						</div>
 						<!-- SINGLE SIDEBAR TAG END -->
 					</div>
@@ -346,7 +317,7 @@
 							<!-- PRODUCT-CATEGORY-HEADER START -->
 							<div class="product-category-header">
 								<div class="category-header-image">
-									<img src="img/category-header1.jpg" width="870px" height="217px" alt="category-header" />
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCeaB8qfDg6H0ongsb0fl4Y66H-5oJzxzRY7GmRqQg_vnvzBRwl7q40qT0-MIVr-cMt14&usqp=CAU" width="870px" height="217px" alt="category-header" />
 								<!--
 									<div class="category-header-text">
 										<h2 style="background-color: #333;">ADIDAS </h2>
@@ -474,7 +445,7 @@
 									
 										<div class="single-product-item">
 											<div class="product-image">
-												<a href="single-product.php?maSanPham=<?php echo $resultProd['maSanPham']; ?>"><img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="product-image" /></a>
+												<a href="single-product.php?maSanPham=<?php echo $resultProd['maSanPham']; ?>"><img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="product-image" /></a>
 												<!-- <a href="single-product.php" class="new-mark-box">mới</a> -->
 													<div class="overlay-content">
 														<!--ul>
@@ -512,7 +483,7 @@
 														</span>
 												</a>
 												<div class="price-box">
-													<span class="price"><?php echo number_format($resultProd['giaSanPham']); ?> VNĐ</span>
+													<span class="price"><?php echo ($resultProd['giaSanPham']); ?> VNĐ</span>
 												</div>	
 											</div>
 										</div>	

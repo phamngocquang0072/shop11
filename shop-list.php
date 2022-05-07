@@ -399,7 +399,7 @@
                                                         </p>
 														</div>
 														<div class="price-box">
-															<span class="price"><?php echo number_format($resultProd['giaSanPham']); ?> VNĐ</span>
+															<span class="price"><?php echo ($resultProd['giaSanPham']); ?> VNĐ</span>
 														</div>
 													</div>
 													<div class="overlay-content-list">

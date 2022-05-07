@@ -60,7 +60,7 @@ if (isset($_GET['nameSearch']) && !empty($_GET['nameSearch'])) {
 										</span>
 									</a>
 									<div class="price-box">
-										<span class="price"><?php echo number_format($resultProd['giaSanPham']); ?> VND</span>
+										<span class="price"><?php echo ($resultProd['giaSanPham']); ?> VND</span>
 									</div>
 								</div>
 							</div>

@@ -33,7 +33,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title><?= isset($pageTitle) ? $pageTitle : "B.STORE - Hệ thống quần áo chính hãng"?></title>
+        <title><?= isset($pageTitle) ? $pageTitle : "VSHIP - Hệ thống thực phẩm uy tín"?></title>
         <?php if (function_exists('customPageHeader')){
       		customPageHeader();
     	}?>
@@ -144,7 +144,7 @@
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 						<div class="header-left-menu">
 							<div class="welcome-info">
-								 CHÀO MỪNG ĐẾN VỚI <span>B.STORE</span>
+								 CHÀO MỪNG ĐẾN VỚI <span>VSHIP</span>
 							</div>
 							<!--<div class="currenty-converter">
 								<form method="post" action="#" id="currency-set">
@@ -235,7 +235,7 @@
 					<div class="col-sm-12">
 						<!-- LOGO START -->
 						<div class="logo">
-							<a href="index.php"><img src="img/logo.png" alt="bstore logo" /></a>
+							<a href="index.php"><img src="https://thucphamvship.com/wp-content/uploads/2020/08/logo-vship-khong-chu.png" alt="bstore logo" style="height: 91px; width: 188px;" /></a> <!-- 188 x 91-->
 						</div>
 						<!-- LOGO END -->
 						<!-- HEADER-RIGHT-CALLUS START -->
@@ -374,7 +374,7 @@
 																while ($resultCatTitleOther = $catTitleOther->fetch_assoc()){
 																	
 														?>
-														<li><a href="shop-gird.php?maLoai=<?php echo $resultCatTitleOther['maLoai']; ?>">GIÀY <?php echo $resultCatTitleOther['tenLoai']; ?></a>
+														<li><a href="shop-gird.php?maLoai=<?php echo $resultCatTitleOther['maLoai']; ?>"> <?php echo $resultCatTitleOther['tenLoai']; ?></a>
 														</li>
 														<?php 
 															}

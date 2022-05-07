@@ -206,7 +206,7 @@
                                                         <td><?php echo $i; ?></td>
                                                         <td><?php echo $thang.'/'.$nam; ?></td>
                                                         <td><?php echo $dataDoanhThu['COUNT(maHoaDon)']; ?> </td>
-                                                        <td><?php echo number_format($dataDoanhThu['SUM(giaTriHD)']); ?> VNĐ</td>
+                                                        <td><?php echo ($dataDoanhThu['SUM(giaTriHD)']); ?> VNĐ</td>
                                                     </tr>
                                                     <?php 
                                                         }

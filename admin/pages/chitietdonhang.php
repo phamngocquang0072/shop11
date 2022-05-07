@@ -121,12 +121,12 @@
                                                     <td><?php echo $resultSPDH['sizeSanPham']; ?></td>
                                                     
                                                     <td><?php echo $resultSPDH['sum(`soLuongSP`)']; ?></td>
-                                                    <td><?php echo number_format($resultSPDH['giaSanPham']); ?></td>
+                                                    <td><?php echo ($resultSPDH['giaSanPham']); ?></td>
                                                     
                                                     <?php 
                                                         $thanhtien = $resultSPDH['sum(`soLuongSP`)'] * $resultSPDH['giaSanPham'];
                                                     ?>
-                                                    <td><?php echo number_format($thanhtien); ?></td>
+                                                    <td><?php echo ($thanhtien); ?></td>
 
                                                     
                                                     <?php 
@@ -144,7 +144,7 @@
                                         <label class="labelAddProduct">Giá trị đơn hàng: </label>
                                     </td>
                                     <td>
-                                        <span style="font-size: 16px;"><?php echo number_format($resultDH['tongTienDH']) ?> VND</span>
+                                        <span style="font-size: 16px;"><?php echo ($resultDH['tongTienDH']) ?> VND</span>
                                     </td>
                                 </tr> 
                                     <td class="tabLabel">

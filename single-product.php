@@ -130,7 +130,7 @@ session_start();
 										<p>Tình trạng: <span>Hàng mới</span></p>
 									</div>
 									<div class="single-product-price">
-										<h2><?php echo number_format($resultProd['giaSanPham']); ?> VNĐ</h2>
+										<h2><?php echo ($resultProd['giaSanPham']); ?> VNĐ</h2>
 									</div>
 									<div class="single-product-desc">
 										<p><?php echo $resultProd['mieuTaSanPham']; ?></p>
@@ -324,7 +324,7 @@ session_start();
                                                         	</span>
 														</a>
 														<div class="price-box">
-															<span class="price"><?php echo number_format($resultProdSame['giaSanPham']); ?> VNĐ</span>
+															<span class="price"><?php echo ($resultProdSame['giaSanPham']); ?> VNĐ</span>
 															<!-- <span class="old-price">1,400,000 VND</span> -->
 														</div>
 													</div>

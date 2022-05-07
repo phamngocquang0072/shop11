@@ -417,7 +417,7 @@ span.mobile-menu-title{
 	padding-right:10px;
 }
 .welcome-info span{
-	color:#ff4f4f;
+	color:#08eb40;
 }
 .currenty-converter{
 	border-right: 1px solid #555;
@@ -523,9 +523,17 @@ span.mobile-menu-title{
 	padding-top:25px;
 	float:left;
 	margin-bottom:25px;
+	
 }
 .logo a{
 	display:block;
+	height: 91px;
+	width: 188px;
+}
+.logo a img{
+	display:block;
+	height: 91px;
+	width: 188px;
 }
 .categorys-product-search{
 	float: right;
