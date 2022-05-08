@@ -84,7 +84,7 @@
 								<!-- ABOUT-US-AREA START -->
 								<div class="about-us-area">
 									<h2>VỀ CHÚNG TÔI</h2>
-									<p>B.STORE - Hệ thống giày thể thao chính hãng</p>
+									<p>VSHIP - Hệ thống thực phẩm uy tín</p>
 								</div>
 								<!-- ABOUT-US-AREA END -->
 								<!-- FLLOW-US-AREA START -->
@@ -109,7 +109,7 @@
 										<!-- STATICBLOCK START -->
 										<div class="staticblock">
 											<h2>GIỚI THIỆU</h2>
-											<p>B.STORE được thành lập vào năm 2020. Nhằm giúp các bạn có thể mua được những đôi giày chất lượng tốt và chính hãng.</p>
+											<p>VSHIP được thành lập vào năm 2020. Nhằm giúp các bạn có thể mua được những loại thực phẩm sạch, chất lượng tốt và an toàn.</p>
 										</div>
 										<!-- STATICBLOCK END -->
 									</div>
@@ -123,7 +123,7 @@
 														<i class="fa fa-map-marker"></i>
 													</div>
 													<div class="info-text">
-														<p>B.STORE, 42 An Dương Vương, TP HCM </p>
+														<p>VSHIP, 99 An Dương Vương, TP HCM </p>
 													</div>
 												</li>
 												<li>
@@ -139,7 +139,7 @@
 														<i class="fa fa-envelope-o"></i>
 													</div>
 													<div class="info-text">
-														<p>Email : <a href="mailto:sales@bstore.com"><i class="fa fa-angle-double-right"></i> sales@bstore.com</a></p>
+														<p>Email : <a href="mailto:sales@bstore.com"><i class="fa fa-angle-double-right"></i> sales@vship.com</a></p>
 													</div>
 												</li>
 											</ul>
@@ -166,10 +166,10 @@
 											<div class="single-f-widget">
 												<h2>Danh mục</h2>
 												<ul>
-													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i>Giày Adidas </a></li>
-													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i>Giày Nike</a></li>
-													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i>Giày Converse</a></li>
-													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i>Giày Vans</a></li>
+													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i> </a></li>
+													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i></a></li>
+													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i></a></li>
+													<li><a href="shop-gird.php"><i class="fa fa-angle-double-right"></i>	</a></li>
 												</ul>
 											</div>
 										</div>
@@ -227,7 +227,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="copy-right">
-							<address>Bản quyền © 2020 <a href="#">B.STORE</a> All Rights Reserved</address>
+							<address>Bản quyền © 2020 <a href="#">VSHIP</a> All Rights Reserved</address>
 						</div>
 						<div class="scroll-to-top">
 							<a href="#" class="bstore-scrollertop"><i class="fa fa-angle-double-up"></i></a>

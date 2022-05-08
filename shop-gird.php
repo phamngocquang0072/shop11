@@ -19,7 +19,7 @@
 ?>
 
 <?php
-	$pageTitle = "GIÀY ". $resultCat['tenLoai']." | B.STORE - Hệ thống quần áo chính hãng";
+	$pageTitle =  $resultCat['tenLoai']." | B.STORE - Hệ thống quần áo chính hãng";
 	function customPageHeader(){?>
 		<title>$pageTitle</title>
 	<?php }
@@ -35,7 +35,7 @@
 						<div class="bstore-breadcrumb">
 							<a href="index.php">TRANG CHỦ</a>
 							<span><i class="fa fa-caret-right"></i></span>
-							<span>GIÀY <?php echo $resultCat['tenLoai']; ?></span>
+							<span> <?php echo $resultCat['tenLoai']; ?></span>
 						</div>
 						<!-- BSTORE-BREADCRUMB END -->
 					</div>
@@ -331,7 +331,7 @@
 							<div class="product-category-title">
 								<!-- PRODUCT-CATEGORY-TITLE START -->
 								<h1>
-									<span class="cat-name">GIÀY <?php echo $resultCat['tenLoai']; ?></span>
+									<span class="cat-name"><?php echo $resultCat['tenLoai']; ?></span>
 									<span class="count-product">
 										Có 
 									<?php 

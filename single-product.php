@@ -36,7 +36,7 @@ session_start();
 								$catList = $cat->getcatbyId($resultProd['maLoai']);
 								$resultCat = $catList->fetch_assoc();
 							?>
-							<a href="shop-gird.php?maLoai=<?php echo $resultCat['maLoai']; ?>"> Giày <?php echo $resultCat['tenLoai']; ?> </a>
+							<a href="shop-gird.php?maLoai=<?php echo $resultCat['maLoai']; ?>">  <?php echo $resultCat['tenLoai']; ?> </a>
 							<span><?php echo $resultProd['tenSanPham']; ?></span>
 						</div>
 						<!-- BSTORE-BREADCRUMB END -->
@@ -52,30 +52,30 @@ session_start();
 									<div class="tab-content">
 										<div class="tab-pane active" id="thumbnail_1">
 											<div class="single-product-image">
-												<img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
+												<img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
 												<!-- <a class="new-mark-box" href="#">mới</a> -->
-												<a class="fancybox" href="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
+												<a class="fancybox" href="<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
 											</div>	
 										</div>
 										<div class="tab-pane" id="thumbnail_2">
 											<div class="single-product-image">
-												<img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
+												<img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
 												<!-- <a class="new-mark-box" href="#">mới</a> -->
-												<a class="fancybox" href="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
+												<a class="fancybox" href="<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
 											</div>	
 										</div>
 										<div class="tab-pane" id="thumbnail_3">
 											<div class="single-product-image">
-												<img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
+												<img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
 												<!-- <a class="new-mark-box" href="#">mới</a> -->
-												<a class="fancybox" href="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
+												<a class="fancybox" href="<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
 											</div>		
 										</div>
 										<div class="tab-pane" id="thumbnail_4">
 											<div class="single-product-image">
-												<img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
+												<img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="single-product-image" />
 												<!-- <a class="new-mark-box" href="#">mới</a> -->
-												<a class="fancybox" href="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
+												<a class="fancybox" href="<?php echo $resultProd['hinhAnhSanPham']; ?>" data-fancybox-group="gallery"><span class="btn large-btn">Phóng to <i class="fa fa-search-plus"></i></span></a>
 											</div>	
 										</div>	
 									</div>										
@@ -84,16 +84,16 @@ session_start();
 									<!-- Nav tabs -->
 									<ul class="nav nav-tabs select-product-tab bxslider">
 										<li class="active">
-											<a href="#thumbnail_1" data-toggle="tab"><img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
+											<a href="#thumbnail_1" data-toggle="tab"><img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
 										</li>
 										<li>
-											<a href="#thumbnail_2" data-toggle="tab"><img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
+											<a href="#thumbnail_2" data-toggle="tab"><img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
 										</li>
 										<li>
-											<a href="#thumbnail_3" data-toggle="tab"><img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
+											<a href="#thumbnail_3" data-toggle="tab"><img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
 										</li>
 										<li>
-											<a href="#thumbnail_4" data-toggle="tab"><img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
+											<a href="#thumbnail_4" data-toggle="tab"><img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="pro-thumbnail" /></a>
 										</li>	
 									</ul>										
 								</div>
@@ -164,12 +164,7 @@ session_start();
 														</div>
 													</div>
 												</div-->
-												<div class="single-product-size">
-													<p class="small-title">Size: </p> 
-													<select name="product-size" id="product-size">
-														<option value="<?php echo $resultProd["sizeSanPham"]; ?>"><?php echo $resultProd["sizeSanPham"]; ?></option>	
-													</select>
-												</div>
+												
 												<form method="post" action="add_cart.php?id=<?php echo $resultProd['maSanPham'];?>">
 												<div class="single-product-quantity">
 													<!--p class="small-title">Số lượng:</p--> 
@@ -301,7 +296,7 @@ session_start();
 											<div class="item">	
 												<div class="single-product-item">	
 													<div class="product-image">
-														<a href="single-product.php?maSanPham=<?php echo $resultProdSame['maSanPham']; ?>"><img src="admin/pages/uploads/<?php echo $resultProdSame['hinhAnhSanPham']; ?>" alt="product-image" /></a>
+														<a href="single-product.php?maSanPham=<?php echo $resultProdSame['maSanPham']; ?>"><img src="<?php echo $resultProdSame['hinhAnhSanPham']; ?>" alt="product-image" /></a>
 													</div>
 													<div class="product-info">
 														<div class="customar-comments-box">
@@ -358,7 +353,7 @@ session_start();
 								//Show sản phẩm khác sản phẩm ở trang hiện tại, còn hàng					
 								?>
 								<li>
-									<a href="single-product.php?maSanPham=<?php echo $resultProdOther['maSanPham']; ?>"><img src="admin/pages/uploads/<?php echo $resultProdOther['hinhAnhSanPham']; ?>" width='80' alt="" /></a>
+									<a href="single-product.php?maSanPham=<?php echo $resultProdOther['maSanPham']; ?>"><img src="<?php echo $resultProdOther['hinhAnhSanPham']; ?>" width='80' alt="" /></a>
 									<div class="r-sidebar-pro-content">
 										<h5 style="text-transform: uppercase;"><a href="single-product.php?maSanPham=<?php echo $resultProdOther['maSanPham']; ?>"><?php
                                                           echo $textShOther = $fm->textShorten($resultProdOther['tenSanPham'], 20); //Giới hạn kí tự để hiển thị
@@ -374,19 +369,7 @@ session_start();
 							</ul>
 						</div>	
 						<!-- SINGLE SIDE BAR END -->
-						<!-- SINGLE SIDE BAR START -->
-						<div class="single-product-right-sidebar clearfix">
-							<h2 class="left-title">Tags </h2>
-							<div class="category-tag">
-								<a href="shop-gird.php?maLoai=1">Adidas</a>
-								<a href="shop-gird.php?maLoai=2">Nike</a>
-								<a href="shop-gird.php?maLoai=3">CONVERSE</a>
-								<a href="shop-gird.php?maLoai=4">VANS</a>
-								<a href="shop-gird.php?maLoai=11">Newbalance</a>
-								<a href="shop-gird.php?maLoai=6">Asics</a>
-
-							</div>							
-						</div>	
+						
 						<!-- SINGLE SIDE BAR END -->
 						<!-- SINGLE SIDE BAR START -->						
 						<div class="single-product-right-sidebar">
