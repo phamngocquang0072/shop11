@@ -116,7 +116,7 @@
 
 		public function count_product()
 		{
-			$query = "SELECT SUM(soLuongSanPham) AS soluongprod FROM tbl_sanpham";
+			$query = "SELECT COUNT(maSanPham) AS soluongprod FROM tbl_sanpham";
 			$result = $this->db->select($query);
 			return $result;
 		}

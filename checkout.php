@@ -84,7 +84,7 @@ session_start();
 									<tr>
 										<td class="cart-product">
 											<a href="#">
-												<img alt="Faded" src="admin/pages/uploads/<?php echo $rows['hinhAnhSanPham']; ?>">
+												<img alt="Faded" src="<?php echo $rows['hinhAnhSanPham']; ?>">
 											</a>
 										</td>
 										<td class="cart-description">

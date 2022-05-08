@@ -46,7 +46,7 @@
 						<!-- SLIDER-RIGHT START -->
 						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 							<div class="slider-right zoom-img m-top">
-								<a href="single-product.php?maSanPham=27"><img class="img-responsive" src="https://thumbs.dreamstime.com/z/fruits-vegetables-collection-food-background-portrait-format-apples-oranges-tomatoes-fresh-fruit-vegetable-fruits-158349115.jpg" alt="sidebar left" /></a>
+								<a href="single-product.php?maSanPham=111"><img class="img-responsive" src="https://thumbs.dreamstime.com/z/fruits-vegetables-collection-food-background-portrait-format-apples-oranges-tomatoes-fresh-fruit-vegetable-fruits-158349115.jpg" alt="sidebar left" /></a>
 							</div>
 						</div>
 						<!-- SLIDER-RIGHT END -->

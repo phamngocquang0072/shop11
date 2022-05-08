@@ -374,7 +374,7 @@ session_start();
 						<!-- SINGLE SIDE BAR START -->						
 						<div class="single-product-right-sidebar">
 							<div class="slider-right zoom-img">
-								<a href="single-product.php?maSanPham=7"><img class="img-responsive" src="img/product/cms111.png" alt="sidebar left" /></a>
+								<a href="single-product.php?maSanPham=110"><img class="img-responsive" src="https://thumbs.dreamstime.com/z/fruits-vegetables-collection-food-background-portrait-format-apples-oranges-tomatoes-fresh-fruit-vegetable-fruits-158349115.jpg" alt="sidebar left" /></a>
 							</div>							
 						</div>
 					</div>

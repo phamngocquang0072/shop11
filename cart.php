@@ -119,12 +119,10 @@ session_start();
 										   
 									<tr>
 										<td class="cart-product">
-											<a href="#"><img alt="Blouse" src="admin/pages/uploads/<?php echo $rows['hinhAnhSanPham']; ?>"></a>
+											<a href="#"><img alt="Blouse" src="<?php echo $rows['hinhAnhSanPham']; ?>"></a>
 										</td>
 										<td class="cart-description">
 											<p class="product-name"><a href="#"><?php echo $rows['tenSanPham'];?></a></p>
-											
-											<small><a href="#">Size : <?php echo $rows['sizeSanPham'];?></a></small>
 										</td>
 										<td class="cart-avail"><span class="label label-success">Còn hàng</span></td>
 										<td class="cart-unit">
