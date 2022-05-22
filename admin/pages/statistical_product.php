@@ -78,7 +78,7 @@
 
                                                             if ($timTheo == 'Số lượng sản phẩm đã bán'){
                                                                 if ($sortby == 'Tăng dần'){
-                                                                    $queryDT = mysqli_query($conn, "SELECT * FROM tbl_sanpham, tbl_chitiethoadon WHERE tbl_sanpham.maSanPham = tbl_chitiethoadon.maSP GROUP BY tbl_chitiethoadon.maSP ORDER BY tbl_chitiethoadon.maHoaDon ASC LIMIT 16, 20 ");
+                                                                    $queryDT = mysqli_query($conn, "SELECT * FROM tbl_sanpham, tbl_chitiethoadon WHERE tbl_sanpham.maSanPham = tbl_chitiethoadon.maSP GROUP BY tbl_chitiethoadon.maSP ORDER BY tbl_chitiethoadon.maHoaDon ASC LIMIT 1, 1000 ");
                                                                 }else if ($sortby == 'Giảm dần'){
                                                                     $queryDT = mysqli_query($conn, "SELECT * FROM tbl_sanpham, tbl_chitiethoadon WHERE tbl_sanpham.maSanPham = tbl_chitiethoadon.maSP GROUP BY tbl_chitiethoadon.maSP ORDER BY tbl_chitiethoadon.soLuongSP DESC ");
                                                                 }
@@ -97,7 +97,7 @@
 
                                                             
                                                         }else{
-                                                            $queryDT = mysqli_query($conn, "SELECT * FROM tbl_sanpham, tbl_chitiethoadon WHERE tbl_sanpham.maSanPham = tbl_chitiethoadon.maSP GROUP BY tbl_chitiethoadon.maSP LIMIT 16, 30");
+                                                            $queryDT = mysqli_query($conn, "SELECT * FROM tbl_sanpham, tbl_chitiethoadon WHERE tbl_sanpham.maSanPham = tbl_chitiethoadon.maSP GROUP BY tbl_chitiethoadon.maSP LIMIT 1, 1000");
                                                         }
 
                                                         $i = 0;
@@ -118,7 +118,7 @@
                                                         <td><?php echo $dataDoanhThu['tenSanPham'];  ?></td>
                                                         <td><?php echo $dataDoanhThu['soLuongSP']; ?> </td>
                                                         <td><?php echo $dataDoanhThu['soLuongSanPham']; ?></td>
-                                                        <td><img src="uploads/<?php echo $dataDoanhThu['hinhAnhSanPham']; ?>" width='90'></td>
+                                                        <td><img src="<?php echo $dataDoanhThu['hinhAnhSanPham']; ?>" width='90'></td>
                                                     </tr>
                                                     <?php 
                                                         }

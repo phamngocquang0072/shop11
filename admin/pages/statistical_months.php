@@ -87,7 +87,7 @@
                                                         <td><?php echo $i; ?></td>
                                                         <td><?php echo $thang.'/'.$nam; ?></td>
                                                         <td><?php echo $dataDoanhThu['COUNT(maHoaDon)']; ?> </td>
-                                                        <td><?php echo ($dataDoanhThu['SUM(giaTriHD)']); ?> VNĐ</td>
+                                                        <td><?php echo ($dataDoanhThu['SUM(giaTriHD)']); ?> 000 VND</td>
                                                     </tr>
                                                     <?php 
                                                         }

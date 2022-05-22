@@ -207,22 +207,7 @@
 							</nav>
 						</div>
 					</div>
-					<!--?php 
-					if(!isset($_SESSION["timeout"]))
-					{
-						$_SESSION["timeout"]=time();
-					}
-					$st=$_SESSION["timeout"]+120*60 ;
-					if(time()>$st)
-					{
-						mysqli_query($conn,"DELETE FROM `tbl_giohang`");
-					}?-->
-					<!--?php
-					if ($_SESSION['timeout'] + 1 * 60 < time()) {
-						// session timed out
-						mysqli_query($conn,"DELETE FROM `tbl_giohang`");
-					} 
-					?-->
+					
 					<!-- HEADER-RIGHT-MENU END -->
 				</div>
 			</div>
@@ -285,43 +270,7 @@
 									   
 									</span>
 								</a>
-								<!--div class="shipping-cart-overly">
-									<div class="shipping-item">
-										<span class="cross-icon"><i class="fa fa-times-circle"></i></span>
-										<div class="shipping-item-image">
-											<a href="#"><img src="img/shopping-image1.png" alt="shopping image" /></a>
-										</div>
-										<div class="shipping-item-text">
-											<span>1 <span class="pro-quan-x">x</span> <a href="#" class="pro-cat">AIR FORCE 1 SHADOW AQUA PINK</a></span>
-											<span class="pro-quality"><a href="#">Size: 41</a></span>
-											<p>4,500,000 VND</p>
-										</div>
-									</div>
-									<!-<div class="shipping-item">
-										<span class="cross-icon"><i class="fa fa-times-circle"></i></span>
-										<div class="shipping-item-image">
-											<a href="#"><img src="img/shopping-image21.png" alt="shopping image" /></a>
-										</div>
-										<div class="shipping-item-text">
-											<span>1 <span class="pro-quan-x">x</span> <a href="#" class="pro-cat">ADIDAS CONTINENTAL 80 BLACK RED</a></span>
-											<span class="pro-quality"><a href="#">Size: 40</a></span>
-											<p>2,290,000 VND</p>
-										</div>
-									</div>->
-									<div class="shipping-total-bill">
-										<div class="cart-prices">
-											<span class="shipping-cost">0 VND</span>
-											<span>Phí vận chuyển</span>
-										</div>
-										<div class="total-shipping-prices">
-											<span class="shipping-total">4,500,000 VND</span>
-											<span>Tổng thanh toán</span>
-										</div>										
-									</div>
-									<div class="shipping-checkout-btn">
-										<a href="checkout.php">TIẾP TỤC <i class="fa fa-chevron-right"></i></a>
-									</div>
-								</div-->
+								
 							</div>
 						</div>
 					</div>	
@@ -334,14 +283,7 @@
 									<li class="active"><a href="index.php">TRANG CHỦ</a>
 
 										<!-- DROPDOWN MENU START -->
-									<!--	
-										<div class="home-var-menu">
-											<ul class="home-menu">
-												<li><a href="index.php">Home variation 1</a></li>
-												<li><a href="index-2.html">Home variation 2</a></li>
-											</ul>												
-										</div>
-									-->
+								
 										<!-- DROPDOWN MENU END -->
 									</li>
 
@@ -382,13 +324,7 @@
 														?>
 													</ul>
 												</div>
-											<!-- </div> -->
-											<!-- <div class="right-mega col-xs-6">
-												<div class="mega-menu-list">
-													<a class="mega-menu-title" href="shop-gird.php">Prodect</a>
-													
-												</div>
-											</div> -->
+											
 										</div>
 										<!-- DRODOWN-MEGA-MENU END -->
 									</li>
@@ -407,12 +343,7 @@
 							<span class="mobile-menu-title">MENU</span>
 							<nav>
 								<ul>
-									<!--<li><a href="index.php">TRANG CHỦ</a>
-										<ul>
-											<li><a href="index.php">Home variation 1</a></li>
-											<li><a href="index-2.html">Home variation 2</a></li>
-										</ul>														
-									</li>-->					
+														
 									<?php 
 										$catTitle = $cat->show_categoryLimit5();
 										if ($catTitle){

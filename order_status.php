@@ -72,7 +72,7 @@ session_start();
                                                     <td><?php echo $i; ?></td>
                                                     <td><?php echo $resultDH['maDonHang']; ?></td>
                                                     <td><?php echo $resultDH['ngayLapDH']; ?></td>
-                                                    <td><?php echo ($resultDH['tongTienDH']); ?> VNĐ</td>
+                                                    <td><?php echo ($resultDH['tongTienDH']); ?> 000VNĐ</td>
                                                  	 <td><?php echo $resultDH['trangThaiDH']; ?></td>
                                                  	 <td>
                                                  	 	<a href="chitietdonhang.php?maDonHang=<?php echo $resultDH['maDonHang'] ?>"  onclick="return popitup('chitietdonhang.php?maDonHang=<?php echo $resultDH['maDonHang'] ?>') "><button type="button" class="btn btn-info" id="btnShow" style="height: 20%;width: 90%;">Xem chi tiết</button>

@@ -37,7 +37,7 @@ if (isset($_GET['nameSearch']) && !empty($_GET['nameSearch'])) {
 						<li class="gategory-product-list col-lg-3 col-md-4 col-sm-6 col-xs-12">
 							<div class="single-product-item">
 								<div class="product-image">
-									<a href="single-product.php?maSanPham=<?php echo $resultProd['maSanPham']; ?>"><img src="admin/pages/uploads/<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="product-image" /></a>
+									<a href="single-product.php?maSanPham=<?php echo $resultProd['maSanPham']; ?>"><img src="<?php echo $resultProd['hinhAnhSanPham']; ?>" alt="product-image" /></a>
 									<!-- <a href="single-product.php" class="new-mark-box">mới</a> -->
 								</div>
 								<div class="product-info">

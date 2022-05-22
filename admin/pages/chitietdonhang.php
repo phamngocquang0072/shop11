@@ -115,7 +115,7 @@
                                                 <tr class="odd gradeX">
                                                     
                                                     <td><?php echo $i; ?></td>
-                                                    <td><img src="uploads/<?php echo $resultSPDH['hinhAnhSP']; ?>" width="80"></td>
+                                                    <td><img src="<?php echo $resultSPDH['hinhAnhSP']; ?>" width="80"></td>
                                                     <td><?php echo $resultSPDH['maSanPham']; ?></td>
                                                     <td><?php echo $resultSPDH['tenSanPham']; ?></td>
                                                     <td><?php echo $resultSPDH['sizeSanPham']; ?></td>
@@ -144,7 +144,7 @@
                                         <label class="labelAddProduct">Giá trị đơn hàng: </label>
                                     </td>
                                     <td>
-                                        <span style="font-size: 16px;"><?php echo ($resultDH['tongTienDH']) ?> VND</span>
+                                        <span style="font-size: 16px;"><?php echo ($resultDH['tongTienDH']) ?> 000VND</span>
                                     </td>
                                 </tr> 
                                     <td class="tabLabel">

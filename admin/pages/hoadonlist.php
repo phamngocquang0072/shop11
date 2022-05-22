@@ -77,7 +77,7 @@
                                                     <td><?php echo $resultHD['maHoaDon']; ?></td>
                                                     <td><?php echo $resultHD['maKhachHang']; ?></td>
                                                     <td><?php echo $resultHD['ngayDat']; ?></td>
-                                                    <td><?php echo ($resultHD['giaTriHD']); ?> VND</td>
+                                                    <td><?php echo ($resultHD['giaTriHD']); ?> 000 VND</td>
                                                     
                                                     <td>
                                                         <a href="chitiethoadon.php?maHoaDon=<?php echo $resultHD['maHoaDon'] ?>"  onclick="return popitup('chitiethoadon.php?maHoaDon=<?php echo $resultHD['maHoaDon'] ?>') "><button type="button" class="btn btn-info" id="btnShow" >Xem chi tiết</button>

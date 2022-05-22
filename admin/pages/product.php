@@ -92,7 +92,7 @@
                                                         }; 
                                                     ?>    
                                                     </td>
-                                                    <td><img src="uploads/<?php echo $result['hinhAnhSanPham']; ?>" width='80'> </td>
+                                                    <td><img src="<?php echo $result['hinhAnhSanPham']; ?>" width='80'> </td>
                                                     <td>
                                                         <a href="productedit.php?productid=<?php echo $result['maSanPham'] ?>" onclick="return popitup('productedit.php?productid=<?php echo $result['maSanPham'] ?>')"><button type="button" class="btn btn-info">Sửa</button></a>
                                                         <a href="?hideid=<?php echo $result['maSanPham'] ?>" onclick="return confirm('Bạn có chắc muốn ẩn sản phẩm này không?')"><button type="button" class="btn btn-warning " >Ẩn</button></a>

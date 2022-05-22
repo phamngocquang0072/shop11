@@ -97,7 +97,7 @@ session_start();
 										</td>
 										<td class="cart-unit">
 											<ul class="price text-right">
-												<li class="price"><?php echo $rows['giaSanPham'];?> VNĐ</li>
+												<li class="price"><?php echo $rows['giaSanPham'];?> 000VNĐ</li>
 											</ul>
 										</td>
 										<td class="cart_quantity text-center">
@@ -107,7 +107,7 @@ session_start();
 										<?php 
 										   //$gia=(string)$rows['soLuongSanPham'];
 										  $total=$rows['giaSanPham'] *$rows['sum(`soLuongSanPham`)'];?>
-										<span class="price" ><?php echo ($total);?> VNĐ</span>
+										<span class="price" ><?php echo ($total);?> 000VNĐ</span>
 										
 										</td>
 									</tr>
@@ -120,7 +120,7 @@ session_start();
 								<tfoot>
 									<tr>
 										<td class="text-right" colspan="4">Tạm tính</td>
-										<td class="price" colspan="2"><?php echo ($sup_total);?>VNĐ</td>
+										<td class="price" colspan="2"><?php echo ($sup_total);?>000VNĐ</td>
 									</tr>
 									<tr>
 										<td class="text-right" colspan="4">Chi phí gói quà</td>
@@ -139,7 +139,7 @@ session_start();
 											<span>Tổng thanh toán</span>
 										</td>
 										<td id="total-price-container" class="price" colspan="2">
-											<span id="total-price"><?php echo ($sup_total);?> VNĐ</span>
+											<span id="total-price"><?php echo ($sup_total);?> 000VNĐ</span>
 											<input type='hidden' name="price" value="<?php echo ($sup_total);?>">
 										</td>
 									</tr>

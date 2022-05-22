@@ -7,10 +7,10 @@
             tbl_sanpham.maSanPham = tbl_chitiethoadon.maSP and
             tbl_donhang.maDonHang = tbl_chitiethoadon.maHoaDon
             GROUP BY tbl_chitiethoadon.maSP");
-        $data = []
+        $data = [];
         if ($queryDT){
             while ($dataDoanhThu = mysqli_fetch_array($queryDT) ){
-                array_push($data, ["period" => $dataDoanhThu["ngayLapDH"], $dataDoanhThu["tenLoai"] => $dataDoanhThu["soLuongSP"]])
+                array_push($data, ["period" => $dataDoanhThu["ngayLapDH"], $dataDoanhThu["tenLoai"] => $dataDoanhThu["soLuongSP"]]);
             }
         }
         foreach($data as $key) {

@@ -121,18 +121,18 @@ session_start();
                                                 <tr class="odd gradeX">
                                                     
                                                     <td><?php echo $i; ?></td>
-                                                    <td><img src="admin/pages/uploads/<?php echo $resultData['hinhAnhSP']; ?>" width="150"></td>
+                                                    <td><img src="<?php echo $resultData['hinhAnhSP']; ?>" width="150"></td>
                                                     <td><?php echo $resultData['maSanPham']; ?></td>
                                                     <td><?php echo $resultData['tenSanPham']; ?></td>
                                                     <td><?php echo $resultData['sizeSanPham']; ?></td>
                                                     
                                                     <td><?php echo $resultData['sum(`soLuongSP`)']; ?></td>
-                                                    <td><?php echo ($resultData['giaSanPham']); ?> VNĐ</td>
+                                                    <td><?php echo ($resultData['giaSanPham']); ?> 000VNĐ</td>
                                                     
                                                     <?php 
                                                         $thanhtien = $resultData['sum(`soLuongSP`)'] * $resultData['giaSanPham'];
                                                     ?>
-                                                    <td><?php echo ($thanhtien); ?> VNĐ</td>
+                                                    <td><?php echo ($thanhtien); ?> 000VNĐ</td>
 
                                                     
                                                     <?php 
@@ -150,7 +150,7 @@ session_start();
                                         <label class="labelAddProduct">Giá trị đơn hàng: </label>
                                     </td>
                                     <td>
-                                        <span style="font-size: 16px;"><?php echo ($resultCTDH['tongTienDH']) ?> VNĐ</span>
+                                        <span style="font-size: 16px;"><?php echo ($resultCTDH['tongTienDH']) ?> 000VNĐ</span>
                                     </td>
                                 </tr> 
                                     <td class="tabLabel">

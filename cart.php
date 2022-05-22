@@ -127,7 +127,7 @@ session_start();
 										<td class="cart-avail"><span class="label label-success">Còn hàng</span></td>
 										<td class="cart-unit">
 											<ul class="price text-right">
-												<li class="price special-price"><?php echo $rows['giaSanPham'];?> VNĐ</li>
+												<li class="price special-price"><?php echo $rows['giaSanPham'];?> 000VNĐ</li>
 												<!--li class="price-percent-reduction small">&nbsp;-3%&nbsp;</li->
 												<li class="old-price">$27.00</li-->
 											</ul>
@@ -221,7 +221,7 @@ session_start();
 										  <?php 
 										   //$gia=(string)$rows['soLuongSanPham'];
 										  $total=$rows['giaSanPham'] *$rows['sum(`soLuongSanPham`)'];?>
-											<span class="price"><?php echo $total;?> VNĐ</span>
+											<span class="price"><?php echo $total;?> 000VNĐ</span>
 										</td>
 									</tr> 
 									<?php $sup_total+=$total;?><!--tính tổng tiền-->

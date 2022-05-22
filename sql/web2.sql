@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 07, 2022 lúc 09:39 PM
+-- Thời gian đã tạo: Th5 22, 2022 lúc 05:06 PM
 -- Phiên bản máy phục vụ: 10.4.17-MariaDB
 -- Phiên bản PHP: 8.0.1
 
@@ -12050,37 +12050,15 @@ CREATE TABLE `tbl_chitietdonhang` (
 --
 
 INSERT INTO `tbl_chitietdonhang` (`IDCTDH`, `maDonHang`, `tenNguoiNhan`, `sdtKH`, `ghiChuCuaKhachhang`, `maSanPham`, `tenSanPham`, `soLuongSP`, `sizeSanPham`, `giaSanPham`, `mieuTaSP`, `hinhAnhSP`, `diachi`) VALUES
-(38, 1, 'menpro111111', 2147483647, '', 50, 'Vans Old Skool V Sport', 1, 40, 2000000, 'Dòng sản phẩm này hướng tới sự đơn giản nhưng vẫn có điểm nhấn, dải logo Flying V được đặt bên hông giày vừa mang dấu ấn thương hiệu vừa giúp cho những chiếc giày thêm sức hút. Ngoài ra, phần thân Vans Sport hiện nay cũng đượ', '1588456302.jpg', ''),
-(39, 1, 'menpro111111', 2147483647, '', 50, 'Vans Old Skool V Sport', 1, 40, 2000000, 'Dòng sản phẩm này hướng tới sự đơn giản nhưng vẫn có điểm nhấn, dải logo Flying V được đặt bên hông giày vừa mang dấu ấn thương hiệu vừa giúp cho những chiếc giày thêm sức hút. Ngoài ra, phần thân Vans Sport hiện nay cũng đượ', '1588456302.jpg', ''),
-(40, 1, 'menpro111111', 2147483647, '', 62, 'BASAS BUMPER GUM - LOW TOP - OFFWHITE', 1, 36, 450000, 'Vẫn là màu trắng cổ điển của dòng giày Basas, nhưng phần mũi của những sản phẩm thuộc Basas \"Bumper Gum\" lại sở hữu một diện mạo hoàn toàn khác biệt nhờ miếng cao su thô màu nâu đầy sáng tạo, phá cách. \"Bumper Gum\" là đôi già', 'ananas1.jpg', ''),
-(41, 2, 'jsadsadsad', 3423525, '', 25, 'Adidas EQT Bask ADV Xám Gót Xanh', 1, 38, 1950000, 'adidas', '1588453448.jpg', ''),
-(42, 2, 'jsadsadsad', 3423525, '', 63, 'Giày Fila Disruptor 2 Trắng ', 1, 39, 1300000, 'Fila Disruptor 2 Trắng  sở hữu thiết kế khá ấn tượng, mang đậm phong cách sporty. Mẫu giày mang đến cho người mang sự trẻ trung, năng động, thoải mái, sắc trắng bao phủ hầu hết thân giày,  vừa là điể', 'fila1.jpg', ''),
-(43, 2, 'jsadsadsad', 3423525, '', 64, 'Giày Reebok Royal Bridge DV5170', 1, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(48, 3, 'khach113131313', 2147483647, '', 8, 'VANS CLASSIC SLIP ON SKULLS BLACK', 1, 42, 1400000, 'Gooood', '1588064130.jpg', ''),
-(49, 3, 'khach113131313', 2147483647, '', 8, 'VANS CLASSIC SLIP ON SKULLS BLACK', 1, 42, 1400000, 'Gooood', '1588064130.jpg', ''),
-(50, 3, 'khach113131313', 2147483647, '', 62, 'BASAS BUMPER GUM - LOW TOP - OFFWHITE', 1, 36, 450000, 'Vẫn là màu trắng cổ điển của dòng giày Basas, nhưng phần mũi của những sản phẩm thuộc Basas \"Bumper Gum\" lại sở hữu một diện mạo hoàn toàn khác biệt nhờ miếng cao su thô màu nâu đầy sáng tạo, phá cách. \"Bumper Gum\" là đôi già', 'ananas1.jpg', ''),
-(51, 4, 'nhungpro', 23424234, '', 42, 'Converse Chuck Taylor All Star Side Pocket', 1, 40, 1600000, 'xcczczxc', '1588455551.jpg', ''),
-(52, 5, 'menpro232323', 2147483647, '', 1, 'NIKE AIR FORCE 1 SHADOW AQUA PINK', 1, 40, 4600000, 'Good', '1588063730.jpg', ''),
-(53, 5, 'menpro232323', 2147483647, '', 1, 'NIKE AIR FORCE 1 SHADOW AQUA PINK', 2, 40, 4600000, 'Good', '1588063730.jpg', ''),
-(54, 5, 'menpro232323', 2147483647, '', 64, 'Giày Reebok Royal Bridge DV5170', 1, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(55, 6, 'beyeu12234', 933525255, '', 44, 'Converse Chuck Taylor All Star Archival Camo', 3, 38, 1500000, 'Nằm trong BST Converse Camo Connection, Giày Converse Chuck Taylor All Star Camo Patch trang bị đế OrthoLite® giúp người dùng có được sự thoải mái tối đa khi sử dụng. Chất liệu vải canvas thoáng mát. Phần vải lót bên trong củ', '1588455701.jpg', ''),
-(56, 6, 'beyeu12234', 933525255, '', 62, 'BASAS BUMPER GUM - LOW TOP - OFFWHITE', 2, 36, 450000, 'Vẫn là màu trắng cổ điển của dòng giày Basas, nhưng phần mũi của những sản phẩm thuộc Basas \"Bumper Gum\" lại sở hữu một diện mạo hoàn toàn khác biệt nhờ miếng cao su thô màu nâu đầy sáng tạo, phá cách. \"Bumper Gum\" là đôi già', 'ananas1.jpg', ''),
-(57, 6, 'beyeu12234', 933525255, '', 48, 'Converse Chuck Taylor All Star Fearless', 2, 41, 1500000, 'Fearless', '1588456020.png', ''),
-(58, 7, 'beyeuuuuuu', 242424, '', 49, 'Vans Old Skool 36 DX Anaheim Factory', 2, 39, 2200000, 'Kiểu dáng Old Skool cổ điển với lót giày được nâng cấp công nghệ Đệm lót UltraCush mang đến một cảm nhận khác biệt với dòng giày cao cấp này của nhà Vans mang lại sự thoải mái & êm ái cho đôi chân. Anaheim Factory 36DX Vintag', '1588456223.jpg', ''),
-(59, 8, 'nhungne', 24344, '', 42, 'Converse Chuck Taylor All Star Side Pocket', 2, 40, 1600000, 'xcczczxc', '1588455551.jpg', ''),
-(60, 8, 'nhungne', 24344, '', 64, 'Giày Reebok Royal Bridge DV5170', 2, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(61, 9, 'nhungnuane', 23432434, '', 36, 'Nike React Presto \"Ghost\"', 2, 40, 3000000, 'ácgfdgdfgdfg', '1588454562.jpg', ''),
-(62, 10, 'khac234443', 23424, '', 49, 'Vans Old Skool 36 DX Anaheim Factory', 2, 39, 2200000, 'Kiểu dáng Old Skool cổ điển với lót giày được nâng cấp công nghệ Đệm lót UltraCush mang đến một cảm nhận khác biệt với dòng giày cao cấp này của nhà Vans mang lại sự thoải mái & êm ái cho đôi chân. Anaheim Factory 36DX Vintag', '1588456223.jpg', ''),
-(63, 11, 'khactiepne', 2147483647, '', 13, 'NEW BALANCE 530 BLACK WHITE', 4, 41, 1500000, 'Goood', '1588064283.jpg', ''),
-(64, 12, 'nguoinhan1', 123131313, '', 32, 'NIKE AIR FORCE 1 SHADOW ', 3, 38, 2700000, 'kạkjcakjc', '1588454749.jpg', ''),
-(65, 13, '1231', 321321, '321', 32, 'NIKE AIR FORCE 1 SHADOW ', 2, 38, 2700000, 'kạkjcakjc', '1588454749.jpg', ''),
-(66, 13, '1231', 321321, '321', 32, 'NIKE AIR FORCE 1 SHADOW ', 2, 38, 2700000, 'kạkjcakjc', '1588454749.jpg', ''),
-(67, 14, 'test', 2147483647, 'asdasdasd', 4, 'ADIDAS ALPHABOOST PARLEY BLACK', 1, 39, 2590000, 'OKEYYs', '1588064018.jpg', ''),
-(68, 15, 'test12', 0, 'test12', 53, 'Vans Check Bess NI Shoes', 1, 39, 1900000, 'ans Check Bess Ni với thiết kế khỏe khoắn, sự thoải mái của lót Ultra Cush cùng màu sắc trẻ trung mang lại cho khách hàng sự lựa chọn tuyệt vời', '1588456554.jpg', ''),
-(69, 15, 'test12', 0, 'test12', 62, 'BASAS BUMPER GUM - LOW TOP - OFFWHITE', 1, 36, 450000, 'Vẫn là màu trắng cổ điển của dòng giày Basas, nhưng phần mũi của những sản phẩm thuộc Basas \"Bumper Gum\" lại sở hữu một diện mạo hoàn toàn khác biệt nhờ miếng cao su thô màu nâu đầy sáng tạo, phá cách. \"Bumper Gum\" là đôi già', 'ananas1.jpg', ''),
-(70, 18, 'test12', 569806079, '', 24, 'ADIDAS NEO LABEL CLOUDFOAM RACE', 1, 40, 1660000, 'Giống hình', '1588453305.jpg', '13 Nguyễn Trãi, Xã Hồng Thái, Huyện Nà Hang, Tỉnh Tuyên Quang'),
-(71, 19, 'Mến', 569806079, '', 0, 'ASICS GEL-RESPECTOR BLACK GOLD', 2, 42, 2390000, 'Okeeyy', '1588064196.jpg', '13 Nguyễn Trãi, Xã Xuân Lập, Huyện Lâm Bình, Tỉnh Tuyên Quang'),
-(72, 20, 'quang', 842100601, 'gửi hàng cân thận cho bố m', 115, 'CẢI XANH (Gói 0,5kg)', 1, 0, 12, 'Đây là: CẢI XANH (Gói 0,5kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CA%CC%89I-XANH-300x300.jpeg', 'hihih, Xã Tả Van Chư, Huyện Bắc Hà, Tỉnh Lào Cai');
+(72, 20, 'quang', 842100601, 'gửi hàng cân thận cho bố m', 115, 'CẢI XANH (Gói 0,5kg)', 1, 0, 12, 'Đây là: CẢI XANH (Gói 0,5kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CA%CC%89I-XANH-300x300.jpeg', 'hihih, Xã Tả Van Chư, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(73, 21, 'sshhhhhhhhhhhhh', 0, 'sdsds', 217, 'BƠ BOOTH (Túi 1Kg)', 1, 0, 38, 'Đây là: BƠ BOOTH (Túi 1Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/BO%CC%9B-BOOTH-300x300.jpeg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(74, 21, 'sshhhhhhhhhhhhh', 0, 'sdsds', 103, 'BẮP CẢI TRÁI TIM (1Kg)', 7, 0, 39, 'Đây là: BẮP CẢI TRÁI TIM (1Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/bap-cai-trai-tim-300x300.jpg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(75, 21, 'sshhhhhhhhhhhhh', 0, 'sdsds', 258, 'HÀNH PARO (Bó 0,5kg)', 1, 0, 17, 'Đây là: HÀNH PARO (Bó 0,5kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-paro-300x300.jpg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(76, 21, 'sshhhhhhhhhhhhh', 0, 'sdsds', 256, 'CỦ RIỀNG (Túi 0,3Kg)', 2, 0, 15, 'Đây là: CỦ RIỀNG (Túi 0,3Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CU%CC%89-RIE%CC%82%CC%80NG-300x300.jpeg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(77, 21, 'sshhhhhhhhhhhhh', 0, 'sdsds', 257, 'HÀNH LÁ (Gói 0,3kg)', 1, 0, 17, 'Đây là: HÀNH LÁ (Gói 0,3kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-la-300x300.jpg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(78, 22, 'aaaaaaaaaaaa', 0, 'aaaaaaaaaaaaa', 249, 'CHANH DALAT (Túi 0,5Kg)', 1, 0, 13, 'Đây là: CHANH DALAT (Túi 0,5Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-DALAT-300x300.jpeg', 'aaaaaaaaaaaaaaa, Xã Mường Mùn, Huyện Tuần Giáo, Tỉnh Điện Biên'),
+(79, 22, 'aaaaaaaaaaaa', 0, 'aaaaaaaaaaaaa', 249, 'CHANH DALAT (Túi 0,5Kg)', 1, 0, 13, 'Đây là: CHANH DALAT (Túi 0,5Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-DALAT-300x300.jpeg', 'aaaaaaaaaaaaaaa, Xã Mường Mùn, Huyện Tuần Giáo, Tỉnh Điện Biên'),
+(80, 23, '5555555555555', 2147483647, '555555555', 257, 'HÀNH LÁ (Gói 0,3kg)', 1, 0, 17, 'Đây là: HÀNH LÁ (Gói 0,3kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-la-300x300.jpg', 'ssssss, Xã Khuôn Hà, Huyện Lâm Bình, Tỉnh Tuyên Quang');
 
 -- --------------------------------------------------------
 
@@ -12109,37 +12087,14 @@ CREATE TABLE `tbl_chitiethoadon` (
 --
 
 INSERT INTO `tbl_chitiethoadon` (`idHD`, `maHoaDon`, `tenNguoiNhan`, `sdtKH`, `ghiChu`, `maSP`, `tenSP`, `soLuongSP`, `sizeSP`, `giaSP`, `mieuTaSP`, `hinhAnhSP`, `diachi`) VALUES
-(4, 1, 'menpro111111', 2147483647, '', 50, 'Vans Old Skool V Sport', 1, 40, 2000000, 'Dòng sản phẩm này hướng tới sự đơn giản nhưng vẫn có điểm nhấn, dải logo Flying V được đặt bên hông giày vừa mang dấu ấn thương hiệu vừa giúp cho những chiếc giày thêm sức hút. Ngoài ra, phần thân Vans Sport hiện nay cũng đượ', '1588456302.jpg', ''),
-(5, 1, 'menpro111111', 2147483647, '', 50, 'Vans Old Skool V Sport', 1, 40, 2000000, 'Dòng sản phẩm này hướng tới sự đơn giản nhưng vẫn có điểm nhấn, dải logo Flying V được đặt bên hông giày vừa mang dấu ấn thương hiệu vừa giúp cho những chiếc giày thêm sức hút. Ngoài ra, phần thân Vans Sport hiện nay cũng đượ', '1588456302.jpg', ''),
-(6, 1, 'menpro111111', 2147483647, '', 62, 'BASAS BUMPER GUM - LOW TOP - OFFWHITE', 1, 36, 450000, 'Vẫn là màu trắng cổ điển của dòng giày Basas, nhưng phần mũi của những sản phẩm thuộc Basas \"Bumper Gum\" lại sở hữu một diện mạo hoàn toàn khác biệt nhờ miếng cao su thô màu nâu đầy sáng tạo, phá cách. \"Bumper Gum\" là đôi già', 'ananas1.jpg', ''),
-(7, 2, 'jsadsadsad', 3423525, '', 25, 'Adidas EQT Bask ADV Xám Gót Xanh', 1, 38, 1950000, 'adidas', '1588453448.jpg', ''),
-(8, 2, 'jsadsadsad', 3423525, '', 63, 'Giày Fila Disruptor 2 Trắng ', 1, 39, 1300000, 'Fila Disruptor 2 Trắng  sở hữu thiết kế khá ấn tượng, mang đậm phong cách sporty. Mẫu giày mang đến cho người mang sự trẻ trung, năng động, thoải mái, sắc trắng bao phủ hầu hết thân giày,  vừa là điể', 'fila1.jpg', ''),
-(9, 2, 'jsadsadsad', 3423525, '', 64, 'Giày Reebok Royal Bridge DV5170', 1, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(10, 3, 'jsadsadsad', 3423525, '', 25, 'Adidas EQT Bask ADV Xám Gót Xanh', 1, 38, 1950000, 'adidas', '1588453448.jpg', ''),
-(11, 3, 'jsadsadsad', 3423525, '', 63, 'Giày Fila Disruptor 2 Trắng ', 1, 39, 1300000, 'Fila Disruptor 2 Trắng  sở hữu thiết kế khá ấn tượng, mang đậm phong cách sporty. Mẫu giày mang đến cho người mang sự trẻ trung, năng động, thoải mái, sắc trắng bao phủ hầu hết thân giày,  vừa là điể', 'fila1.jpg', ''),
-(12, 3, 'jsadsadsad', 3423525, '', 64, 'Giày Reebok Royal Bridge DV5170', 1, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(13, 4, 'jsadsadsad', 3423525, '', 25, 'Adidas EQT Bask ADV Xám Gót Xanh', 1, 38, 1950000, 'adidas', '1588453448.jpg', ''),
-(14, 4, 'jsadsadsad', 3423525, '', 63, 'Giày Fila Disruptor 2 Trắng ', 1, 39, 1300000, 'Fila Disruptor 2 Trắng  sở hữu thiết kế khá ấn tượng, mang đậm phong cách sporty. Mẫu giày mang đến cho người mang sự trẻ trung, năng động, thoải mái, sắc trắng bao phủ hầu hết thân giày,  vừa là điể', 'fila1.jpg', ''),
-(15, 4, 'jsadsadsad', 3423525, '', 64, 'Giày Reebok Royal Bridge DV5170', 1, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(16, 5, 'jsadsadsad', 3423525, '', 25, 'Adidas EQT Bask ADV Xám Gót Xanh', 1, 38, 1950000, 'adidas', '1588453448.jpg', ''),
-(17, 5, 'jsadsadsad', 3423525, '', 63, 'Giày Fila Disruptor 2 Trắng ', 1, 39, 1300000, 'Fila Disruptor 2 Trắng  sở hữu thiết kế khá ấn tượng, mang đậm phong cách sporty. Mẫu giày mang đến cho người mang sự trẻ trung, năng động, thoải mái, sắc trắng bao phủ hầu hết thân giày,  vừa là điể', 'fila1.jpg', ''),
-(18, 5, 'jsadsadsad', 3423525, '', 64, 'Giày Reebok Royal Bridge DV5170', 1, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(19, 6, 'nhungpro', 23424234, '', 42, 'Converse Chuck Taylor All Star Side Pocket', 1, 40, 1600000, 'xcczczxc', '1588455551.jpg', ''),
-(20, 7, 'nguoinhan1', 123131313, '', 32, 'NIKE AIR FORCE 1 SHADOW ', 3, 38, 2700000, 'kạkjcakjc', '1588454749.jpg', ''),
-(21, 8, 'nhungne', 24344, '', 42, 'Converse Chuck Taylor All Star Side Pocket', 2, 40, 1600000, 'xcczczxc', '1588455551.jpg', ''),
-(22, 8, 'nhungne', 24344, '', 64, 'Giày Reebok Royal Bridge DV5170', 2, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(23, 9, 'beyeuuuuuu', 242424, '', 49, 'Vans Old Skool 36 DX Anaheim Factory', 2, 39, 2200000, 'Kiểu dáng Old Skool cổ điển với lót giày được nâng cấp công nghệ Đệm lót UltraCush mang đến một cảm nhận khác biệt với dòng giày cao cấp này của nhà Vans mang lại sự thoải mái & êm ái cho đôi chân. Anaheim Factory 36DX Vintag', '1588456223.jpg', ''),
-(24, 10, 'khac234443', 23424, '', 49, 'Vans Old Skool 36 DX Anaheim Factory', 2, 39, 2200000, 'Kiểu dáng Old Skool cổ điển với lót giày được nâng cấp công nghệ Đệm lót UltraCush mang đến một cảm nhận khác biệt với dòng giày cao cấp này của nhà Vans mang lại sự thoải mái & êm ái cho đôi chân. Anaheim Factory 36DX Vintag', '1588456223.jpg', ''),
-(25, 11, 'menpro232323', 2147483647, '', 1, 'NIKE AIR FORCE 1 SHADOW AQUA PINK', 1, 40, 4600000, 'Good', '1588063730.jpg', ''),
-(26, 11, 'menpro232323', 2147483647, '', 1, 'NIKE AIR FORCE 1 SHADOW AQUA PINK', 2, 40, 4600000, 'Good', '1588063730.jpg', ''),
-(27, 11, 'menpro232323', 2147483647, '', 64, 'Giày Reebok Royal Bridge DV5170', 1, 38, 2000000, 'nhẹ,êm chân', 'reebok1.jpg', ''),
-(28, 12, '1231', 321321, '321', 32, 'NIKE AIR FORCE 1 SHADOW ', 2, 38, 2700000, 'kạkjcakjc', '1588454749.jpg', ''),
-(29, 12, '1231', 321321, '321', 32, 'NIKE AIR FORCE 1 SHADOW ', 2, 38, 2700000, 'kạkjcakjc', '1588454749.jpg', ''),
-(30, 13, 'test', 2147483647, 'asdasdasd', 4, 'ADIDAS ALPHABOOST PARLEY BLACK', 1, 39, 2590000, 'OKEYYs', '1588064018.jpg', ''),
-(31, 14, 'khactiepne', 2147483647, '', 13, 'NEW BALANCE 530 BLACK WHITE', 4, 41, 1500000, 'Goood', '1588064283.jpg', ''),
-(32, 15, 'khactiepne', 2147483647, '', 13, 'NEW BALANCE 530 BLACK WHITE', 4, 41, 1500000, 'Goood', '1588064283.jpg', ''),
-(33, 16, 'test12', 569806079, '', 24, 'ADIDAS NEO LABEL CLOUDFOAM RACE', 1, 40, 1660000, 'Giống hình', '1588453305.jpg', '13 Nguyễn Trãi, Xã Hồng Thái, Huyện Nà Hang, Tỉnh Tuyên Quang'),
-(34, 17, 'Mến', 569806079, '', 0, 'ASICS GEL-RESPECTOR BLACK GOLD', 2, 42, 2390000, 'Okeeyy', '1588064196.jpg', '13 Nguyễn Trãi, Xã Xuân Lập, Huyện Lâm Bình, Tỉnh Tuyên Quang');
+(35, 18, 'aaaaaaaaaaaa', 0, 'aaaaaaaaaaaaa', 249, 'CHANH DALAT (Túi 0,5Kg)', 1, 0, 13, 'Đây là: CHANH DALAT (Túi 0,5Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-DALAT-300x300.jpeg', 'aaaaaaaaaaaaaaa, Xã Mường Mùn, Huyện Tuần Giáo, Tỉnh Điện Biên'),
+(36, 18, 'aaaaaaaaaaaa', 0, 'aaaaaaaaaaaaa', 249, 'CHANH DALAT (Túi 0,5Kg)', 1, 0, 13, 'Đây là: CHANH DALAT (Túi 0,5Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-DALAT-300x300.jpeg', 'aaaaaaaaaaaaaaa, Xã Mường Mùn, Huyện Tuần Giáo, Tỉnh Điện Biên'),
+(37, 19, 'sshhhhhhhhhhhhh', 0, 'sdsds', 217, 'BƠ BOOTH (Túi 1Kg)', 1, 0, 38, 'Đây là: BƠ BOOTH (Túi 1Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/BO%CC%9B-BOOTH-300x300.jpeg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(38, 19, 'sshhhhhhhhhhhhh', 0, 'sdsds', 103, 'BẮP CẢI TRÁI TIM (1Kg)', 7, 0, 39, 'Đây là: BẮP CẢI TRÁI TIM (1Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/bap-cai-trai-tim-300x300.jpg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(39, 19, 'sshhhhhhhhhhhhh', 0, 'sdsds', 258, 'HÀNH PARO (Bó 0,5kg)', 1, 0, 17, 'Đây là: HÀNH PARO (Bó 0,5kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-paro-300x300.jpg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(40, 19, 'sshhhhhhhhhhhhh', 0, 'sdsds', 256, 'CỦ RIỀNG (Túi 0,3Kg)', 2, 0, 15, 'Đây là: CỦ RIỀNG (Túi 0,3Kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CU%CC%89-RIE%CC%82%CC%80NG-300x300.jpeg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(41, 19, 'sshhhhhhhhhhhhh', 0, 'sdsds', 257, 'HÀNH LÁ (Gói 0,3kg)', 1, 0, 17, 'Đây là: HÀNH LÁ (Gói 0,3kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-la-300x300.jpg', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(42, 20, 'quang', 842100601, 'gửi hàng cân thận cho bố m', 115, 'CẢI XANH (Gói 0,5kg)', 1, 0, 12, 'Đây là: CẢI XANH (Gói 0,5kg)', 'https://thucphamvship.com/wp-content/uploads/2021/11/CA%CC%89I-XANH-300x300.jpeg', 'hihih, Xã Tả Van Chư, Huyện Bắc Hà, Tỉnh Lào Cai');
 
 -- --------------------------------------------------------
 
@@ -12222,23 +12177,10 @@ CREATE TABLE `tbl_donhang` (
 --
 
 INSERT INTO `tbl_donhang` (`maDonHang`, `maKhachHang`, `ngayLapDH`, `tongTienDH`, `trangThaiDH`) VALUES
-(1, 9, '2020-05-12', 4450000, 'Đã hoàn thành'),
-(2, 9, '2020-06-12', 5250000, 'Đã hoàn thành'),
-(4, 12, '2020-06-12', 1600000, 'Đã hoàn thành'),
-(5, 9, '2020-06-13', 15800000, 'Đã hoàn thành'),
-(6, 16, '2020-06-14', 8400000, 'Chưa giao'),
-(7, 16, '2020-06-14', 4400000, 'Đã hoàn thành'),
-(8, 9, '2020-06-14', 7200000, 'Đã hoàn thành'),
-(9, 9, '2020-06-14', 6000000, 'Chưa giao'),
-(10, 9, '2020-06-14', 4400000, 'Đã hoàn thành'),
-(11, 9, '2020-06-14', 6000000, 'Đã hoàn thành'),
-(12, 9, '2020-06-14', 8100000, 'Đã hoàn thành'),
-(13, 17, '2020-06-14', 10800000, 'Đã hoàn thành'),
-(14, 18, '2020-11-12', 2590000, 'Đã hoàn thành'),
-(15, 19, '2020-11-20', 2350000, 'Chưa giao'),
-(18, 19, '2020-11-26', 1660000, 'Đã hoàn thành'),
-(19, 19, '2020-11-26', 4780000, 'Đã hoàn thành'),
-(20, 20, '2022-05-07', 12, 'Chưa giao');
+(20, 20, '2022-05-07', 12, 'Đã hoàn thành'),
+(21, 20, '2022-05-17', 375, 'Đã hoàn thành'),
+(22, 20, '2022-05-17', 26, 'Đã hoàn thành'),
+(23, 20, '2022-05-17', 17, 'Chưa giao');
 
 -- --------------------------------------------------------
 
@@ -12259,6 +12201,16 @@ CREATE TABLE `tbl_giohang` (
   `hinhAnhSanPham` varchar(225) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `tbl_giohang`
+--
+
+INSERT INTO `tbl_giohang` (`id_giohang`, `maSanPham`, `soLuongSanPham`, `sessionID`, `maLoai`, `tenSanPham`, `sizeSanPham`, `mieuTaSanPham`, `giaSanPham`, `hinhAnhSanPham`) VALUES
+(331, 103, 1, 'm2pjqvhrbpv4g6r0cv7qdnfvvm', 23, 'BẮP CẢI TRÁI TIM (1Kg)', 0, 'Đây là: BẮP CẢI TRÁI TIM (1Kg)', 39, 'https://thucphamvship.com/wp-content/uploads/2021/11/bap-cai-trai-tim-300x300.jpg'),
+(332, 250, 1, 'm2pjqvhrbpv4g6r0cv7qdnfvvm', 16, 'Chanh Giấy (Túi 0,5Kg)', 0, 'Đây là: Chanh Giấy (Túi 0,5Kg)', 20, 'https://thucphamvship.com/wp-content/uploads/2021/11/chanh-giay-1-300x300.jpg'),
+(333, 250, 1, 'm2pjqvhrbpv4g6r0cv7qdnfvvm', 16, 'Chanh Giấy (Túi 0,5Kg)', 0, 'Đây là: Chanh Giấy (Túi 0,5Kg)', 20, 'https://thucphamvship.com/wp-content/uploads/2021/11/chanh-giay-1-300x300.jpg'),
+(334, 231, 1, 'u5srcsfr19lcp3njr3fasf7a9i', 20, 'BA RỌI HEO CỎ RÚT SƯỜN (Gói 0,5Kg)', 0, 'Đây là: BA RỌI HEO CỎ RÚT SƯỜN (Gói 0,5Kg)', 99, 'https://thucphamvship.com/wp-content/uploads/2021/11/8BC11FDB-F049-48B3-B451-68D4543CAB80_1_201_a-300x300.jpeg');
+
 -- --------------------------------------------------------
 
 --
@@ -12277,23 +12229,9 @@ CREATE TABLE `tbl_hoadon` (
 --
 
 INSERT INTO `tbl_hoadon` (`maHoaDon`, `maKhachHang`, `ngayDat`, `giaTriHD`) VALUES
-(1, 9, '2020-06-12', 4450000),
-(2, 9, '2020-06-12', 5250000),
-(3, 9, '2020-06-12', 5250000),
-(4, 9, '2020-06-12', 5250000),
-(5, 9, '2020-05-12', 5250000),
-(6, 12, '2020-04-12', 1600000),
-(7, 9, '2020-06-14', 8100000),
-(8, 9, '2020-04-14', 7200000),
-(9, 16, '2020-07-14', 4400000),
-(10, 9, '2020-06-14', 4400000),
-(11, 9, '2020-06-14', 15800000),
-(12, 17, '2020-06-14', 10800000),
-(13, 18, '2020-11-12', 2590000),
-(14, 9, '2020-11-12', 6000000),
-(15, 9, '2020-11-12', 6000000),
-(16, 19, '2020-11-26', 1660000),
-(17, 19, '2020-11-26', 4780000);
+(18, 20, '2022-05-17', 26),
+(19, 20, '2022-05-17', 375),
+(20, 20, '2022-05-17', 12);
 
 -- --------------------------------------------------------
 
@@ -12325,7 +12263,7 @@ INSERT INTO `tbl_khachhang` (`maKhachHang`, `tenDangNhap`, `matKhau`, `hoTenKhac
 (17, 'xinchào', 'e10adc3949ba59abbe56e057f20f883e', 'dsa', 'dsadsa@g', 'Active', NULL),
 (18, 'test1', 'cc03e747a6afbbcbf8be7668acfebee5', 'test', 'test@gmail.com', 'Active', NULL),
 (19, 'test12', '60474c9c10d7142b7508ce7a50acf414', 'test12', 'test12@gmail.com', 'Active', NULL),
-(20, 'hikemm', '96e79218965eb72c92a549dd5a330112', 'cccccc', 'ccccccc@gmail.com', 'Active', '2022-05-26');
+(20, 'hikemm', '96e79218965eb72c92a549dd5a330112', 'kemmmm', 'hikemmm@gmail.com', 'Active', '2022-05-26');
 
 -- --------------------------------------------------------
 
@@ -12403,7 +12341,7 @@ CREATE TABLE `tbl_sanpham` (
 
 INSERT INTO `tbl_sanpham` (`maSanPham`, `maLoai`, `tenSanPham`, `soLuongSanPham`, `mieuTaSanPham`, `giaSanPham`, `trangThaiSanPham`, `hinhAnhSanPham`) VALUES
 (102, 23, 'BẮP CẢI (1KG)', '12', 'Đây là: BẮP CẢI (1KG)', '26.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/bap-cai-300x300.jpg'),
-(103, 23, 'BẮP CẢI TRÁI TIM (1Kg)', '6', 'Đây là: BẮP CẢI TRÁI TIM (1Kg)', '39.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/bap-cai-trai-tim-300x300.jpg'),
+(103, 23, 'BẮP CẢI TRÁI TIM (1Kg)', '-1', 'Đây là: BẮP CẢI TRÁI TIM (1Kg)', '39.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/bap-cai-trai-tim-300x300.jpg'),
 (104, 23, 'BÓ XÔI (Gói 0,5kg)', '59', 'Đây là: BÓ XÔI (Gói 0,5kg)', '23.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/bo-xoi-300x300.jpg'),
 (105, 23, 'Bông Bí (Gói 0,5Kg)', '28', 'Đây là: Bông Bí (Gói 0,5Kg)', '25.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/12/image-300x300.jpeg'),
 (106, 23, 'BÔNG CẢI XANH (1Kg)', '83', 'Đây là: BÔNG CẢI XANH (1Kg)', '55.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/bong-cai-xanh-300x300.jpg'),
@@ -12438,7 +12376,7 @@ INSERT INTO `tbl_sanpham` (`maSanPham`, `maLoai`, `tenSanPham`, `soLuongSanPham`
 (214, 23, 'XÀ LÁCH ROMAINE (Gói 0,3kg)', '16', 'Đây là: XÀ LÁCH ROMAINE (Gói 0,3kg)', '22.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/xa-lach-ROMAINE-300x300.jpg'),
 (215, 23, 'Xà Lách Son (Túi 0,5Kg)', '98', 'Đây là: Xà Lách Son (Túi 0,5Kg)', '24.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/12/phu-cuong-an-nghiep-rau-xa-lach-xoong-300x300.jpg'),
 (216, 23, 'XÀ LÁCH TÍM 0.3KG/GÓI', '95', 'Đây là: XÀ LÁCH TÍM 0.3KG/GÓI', '22.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/xa-lach-tim-300x300.jpg'),
-(217, 27, 'BƠ BOOTH (Túi 1Kg)', '75', 'Đây là: BƠ BOOTH (Túi 1Kg)', '38.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/BO%CC%9B-BOOTH-300x300.jpeg'),
+(217, 27, 'BƠ BOOTH (Túi 1Kg)', '74', 'Đây là: BƠ BOOTH (Túi 1Kg)', '38.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/BO%CC%9B-BOOTH-300x300.jpeg'),
 (218, 27, 'Bưởi Da Xanh (Kg)', '87', 'Đây là: Bưởi Da Xanh (Kg)', '55.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/12/1f7b8e8cf1604aeca40973362be5eaa1LeQdnH8heUpUbD97-0-300x300.jpeg'),
 (219, 27, 'CAM VƯỜN HỮU CƠ (Túi 1Kg)', '84', 'Đây là: CAM VƯỜN HỮU CƠ (Túi 1Kg)', '32.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CAM-SA%CC%80NH-HU%CC%9B%CC%83U-CO%CC%9B-300x300.jpeg'),
 (220, 27, 'CẦN TÂY', '94', 'Đây là: CẦN TÂY', '55.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/can-tay-300x300.jpg'),
@@ -12470,16 +12408,16 @@ INSERT INTO `tbl_sanpham` (`maSanPham`, `maLoai`, `tenSanPham`, `soLuongSanPham`
 (246, 17, 'CÀ CHUA (Túi 1Kg)', '80', 'Đây là: CÀ CHUA (Túi 1Kg)', '52.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/ca-chua-300x300.jpg'),
 (247, 17, 'CÀ CHUA BEEF 1KG', '4', 'Đây là: CÀ CHUA BEEF 1KG', '58.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/10/CA%CC%80-CHUA-BEEF-300x300.jpeg'),
 (248, 17, 'Cà chua Cheery 0.5KG/TÚI', '66', 'Đây là: Cà chua Cheery 0.5KG/TÚI', '38.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/10/CA%CC%80-CHUA-CHEERY-300x300.jpeg'),
-(249, 16, 'CHANH DALAT (Túi 0,5Kg)', '9', 'Đây là: CHANH DALAT (Túi 0,5Kg)', '13.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-DALAT-300x300.jpeg'),
+(249, 16, 'CHANH DALAT (Túi 0,5Kg)', '7', 'Đây là: CHANH DALAT (Túi 0,5Kg)', '13.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-DALAT-300x300.jpeg'),
 (250, 16, 'Chanh Giấy (Túi 0,5Kg)', '63', 'Đây là: Chanh Giấy (Túi 0,5Kg)', '20.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/chanh-giay-1-300x300.jpg'),
 (251, 16, 'CHANH KHÔNG HẠT (Túi 0,5kg)', '25', 'Đây là: CHANH KHÔNG HẠT (Túi 0,5kg)', '10.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-KHONG-HAT-300x300.jpg'),
 (252, 16, 'CHANH VÀNG MỸ (Túi 0,5Kg)', '44', 'Đây là: CHANH VÀNG MỸ (Túi 0,5Kg)', '70.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CHANH-VA%CC%80NG-MY%CC%83-300x300.jpeg'),
 (253, 16, 'Chanh Vàng Mỹ (Túi 0,5Kg)', '41', 'Đây là: Chanh Vàng Mỹ (Túi 0,5Kg)', '70.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/12/chanh-vang.jpg-300x300.jpeg'),
 (254, 16, 'CỦ GỪNG (Túi 0,2Kg)', '24', 'Đây là: CỦ GỪNG (Túi 0,2Kg)', '8.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CU%CC%89-GU%CC%9B%CC%80NG-300x300.jpeg'),
 (255, 16, 'CỦ HÀNH TÂY (Túi 0,5Kg)', '33', 'Đây là: CỦ HÀNH TÂY (Túi 0,5Kg)', '13.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CU%CC%89-HA%CC%80NH-TA%CC%82Y-300x300.jpg'),
-(256, 16, 'CỦ RIỀNG (Túi 0,3Kg)', '13', 'Đây là: CỦ RIỀNG (Túi 0,3Kg)', '15.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CU%CC%89-RIE%CC%82%CC%80NG-300x300.jpeg'),
-(257, 16, 'HÀNH LÁ (Gói 0,3kg)', '34', 'Đây là: HÀNH LÁ (Gói 0,3kg)', '17.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-la-300x300.jpg'),
-(258, 16, 'HÀNH PARO (Bó 0,5kg)', '8', 'Đây là: HÀNH PARO (Bó 0,5kg)', '17.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-paro-300x300.jpg');
+(256, 16, 'CỦ RIỀNG (Túi 0,3Kg)', '11', 'Đây là: CỦ RIỀNG (Túi 0,3Kg)', '15.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/CU%CC%89-RIE%CC%82%CC%80NG-300x300.jpeg'),
+(257, 16, 'HÀNH LÁ (Gói 0,3kg)', '32', 'Đây là: HÀNH LÁ (Gói 0,3kg)', '17.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-la-300x300.jpg'),
+(258, 16, 'HÀNH PARO (Bó 0,5kg)', '7', 'Đây là: HÀNH PARO (Bó 0,5kg)', '17.000', '1', 'https://thucphamvship.com/wp-content/uploads/2021/11/hanh-paro-300x300.jpg');
 
 -- --------------------------------------------------------
 
@@ -12539,7 +12477,11 @@ INSERT INTO `tbl_thongtingiaohang1` (`IDTTGH`, `maKhachHang`, `tenNguoiNhan`, `s
 (43, 19, 'test12', 569806079, '', 'n8cj6demobqrmjthlpn8fdokv3', '13 Nguyễn Trãi, Xã Tung Chung Phố, Huyện Mường Khương, Tỉnh Lào Cai'),
 (44, 19, 'test12', 569806079, '', 'n8cj6demobqrmjthlpn8fdokv3', '13 Nguyễn Trãi, Xã Hồng Thái, Huyện Nà Hang, Tỉnh Tuyên Quang'),
 (45, 19, 'Mến', 569806079, '', 'n8cj6demobqrmjthlpn8fdokv3', '13 Nguyễn Trãi, Xã Xuân Lập, Huyện Lâm Bình, Tỉnh Tuyên Quang'),
-(46, 20, 'quang', 842100601, 'gửi hàng cân thận cho bố m', 'rsu7otgqh69372fbqt1t1q3mkd', 'hihih, Xã Tả Van Chư, Huyện Bắc Hà, Tỉnh Lào Cai');
+(46, 20, 'quang', 842100601, 'gửi hàng cân thận cho bố m', 'rsu7otgqh69372fbqt1t1q3mkd', 'hihih, Xã Tả Van Chư, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(47, 20, 'qqq', 842100601, 'qqqqq', 'm2pjqvhrbpv4g6r0cv7qdnfvvm', 'qqqqq, Xã Giáo Hiệu, Huyện Pác Nặm, Tỉnh Bắc Kạn'),
+(48, 20, 'sshhhhhhhhhhhhh', 0, 'sdsds', 't04ip2dglvif37fv7nm4acat0i', 'ssssss, Thị trấn Bắc Hà, Huyện Bắc Hà, Tỉnh Lào Cai'),
+(49, 20, 'aaaaaaaaaaaa', 0, 'aaaaaaaaaaaaa', 't04ip2dglvif37fv7nm4acat0i', 'aaaaaaaaaaaaaaa, Xã Mường Mùn, Huyện Tuần Giáo, Tỉnh Điện Biên'),
+(50, 20, '5555555555555', 2147483647, '555555555', 't04ip2dglvif37fv7nm4acat0i', 'ssssss, Xã Khuôn Hà, Huyện Lâm Bình, Tỉnh Tuyên Quang');
 
 -- --------------------------------------------------------
 
@@ -12669,13 +12611,13 @@ ALTER TABLE `tbl_vaitro`
 -- AUTO_INCREMENT cho bảng `tbl_chitietdonhang`
 --
 ALTER TABLE `tbl_chitietdonhang`
-  MODIFY `IDCTDH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
+  MODIFY `IDCTDH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_chitiethoadon`
 --
 ALTER TABLE `tbl_chitiethoadon`
-  MODIFY `idHD` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `idHD` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_diachi`
@@ -12693,13 +12635,13 @@ ALTER TABLE `tbl_donhang`
 -- AUTO_INCREMENT cho bảng `tbl_giohang`
 --
 ALTER TABLE `tbl_giohang`
-  MODIFY `id_giohang` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=331;
+  MODIFY `id_giohang` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=343;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_hoadon`
 --
 ALTER TABLE `tbl_hoadon`
-  MODIFY `maHoaDon` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `maHoaDon` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_khachhang`
@@ -12717,13 +12659,13 @@ ALTER TABLE `tbl_loaisanpham`
 -- AUTO_INCREMENT cho bảng `tbl_sanpham`
 --
 ALTER TABLE `tbl_sanpham`
-  MODIFY `maSanPham` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=259;
+  MODIFY `maSanPham` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=260;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_thongtingiaohang1`
 --
 ALTER TABLE `tbl_thongtingiaohang1`
-  MODIFY `IDTTGH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `IDTTGH` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_vaitro`

@@ -115,18 +115,18 @@
                                                 <tr class="odd gradeX">
                                                     
                                                     <td><?php echo $i; ?></td>
-                                                    <td><img src="uploads/<?php echo $resultSPHD['hinhAnhSP']; ?>" width="90"></td>
+                                                    <td><img src="<?php echo $resultSPHD['hinhAnhSP']; ?>" width="90"></td>
                                                     <td><?php echo $resultSPHD['maSP']; ?></td>
                                                     <td><?php echo $resultSPHD['tenSP']; ?></td>
                                                     <td><?php echo $resultSPHD['sizeSP']; ?></td>
                                                     
                                                     <td><?php echo $resultSPHD['sum(`soLuongSP`)']; ?></td>
-                                                    <td><?php echo ($resultSPHD['giaSP']); ?></td>
+                                                    <td><?php echo ($resultSPHD['giaSP']); ?> 000</td>
                                                     
                                                     <?php 
                                                         $thanhtien = $resultSPHD['sum(`soLuongSP`)'] * $resultSPHD['giaSP'];
                                                     ?>
-                                                    <td><?php echo ($thanhtien); ?></td>
+                                                    <td><?php echo ($thanhtien); ?> 000</td>
 
                                                     
                                                     <?php 
@@ -144,7 +144,7 @@
                                         <label class="labelAddProduct">Giá trị đơn hàng: </label>
                                     </td>
                                     <td>
-                                        <span style="font-size: 16px;"><?php echo ($resultHD['giaTriHD']) ?> VND</span>
+                                        <span style="font-size: 16px;"><?php echo ($resultHD['giaTriHD']) ?> 000 VND</span>
                                     </td>
 
                                  </table>
